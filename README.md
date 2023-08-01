@@ -1,4 +1,4 @@
-Sure! I've added the frontend and backend dependencies to the README file. Here's the updated README:
+
 
 # MERN Stack Authentication with JWT and Nodemailer
 
