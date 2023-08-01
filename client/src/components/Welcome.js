@@ -16,7 +16,7 @@ export default function Welcome() {
       window.location.assign("/login");
     }
     GetUser();
-    
+
     //  setdata(response)
   }, []);
   const GetUser = async () => {
@@ -26,7 +26,7 @@ export default function Welcome() {
           Authorization: `${localStorage.getItem("access_token")}`,
         },
       });
-    
+
       console.log(response.data);
       setdata(response.data);
     } catch (e) {
@@ -46,7 +46,9 @@ export default function Welcome() {
         height: "100vh",
       }}
     >
-      <h1>Wellcome {getdata.email } and your name is {getdata.first_name}</h1>
+      <h1>
+        Wellcome {getdata.email} and your name is {getdata.first_name}
+      </h1>
       {isAuthenticated ? (
         <>
           {/* Show the logout button if the user is authenticated */}

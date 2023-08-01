@@ -1,0 +1,40 @@
+/* otp-verification.css */
+
+/* Style the container holding the OTP input and button */
+.container {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-width: 300px;
+  }
+  
+  /* Style the OTP input field */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the Verify button */
+  button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the success message */
+  .success-message {
+    color: green;
+    font-weight: bold;
+  }
+  

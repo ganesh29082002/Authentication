@@ -1,4 +1,4 @@
-/* styles.css */
+/*  */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +13,8 @@ body {
     background-color: #f1f1f1;
     border: 1px solid #ccc;
     border-radius: 8px;
-    padding: 20px;
+    padding: 40px;
+    
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   }
   
@@ -49,3 +50,24 @@ body {
     background-color: #45a049;
   }
   
+  /* css for loading */
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.spinner {
+  border: 4px solid rgba(0, 0, 0, 0.3);
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
