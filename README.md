@@ -3,7 +3,7 @@ Sure! I've added the frontend and backend dependencies to the README file. Here'
 # MERN Stack Authentication with JWT and Nodemailer
 
 <p align="center">
-  <img src="https://living.acg.aaa.com/content/dam/aaa-living/devtest/what-is-two-factor-authentication.gif" alt="Authentication Gif" />
+  <img src="https://living.acg.aaa.com/content/dam/aaa-living/devtest/what-is-two-factor-authentication.gif" alt="Authentication Gif" width="700"/>
 </p>
 
 This project is a complete authentication system implemented in the MERN (MongoDB, Express, React, Node.js) stack. It includes essential features such as user registration, login, logout, password reset, and forgot password functionality. JSON Web Tokens (JWT) are used for secure authentication, and Nodemailer is integrated to handle password reset emails.
@@ -139,10 +139,6 @@ The server will start running on the specified port (default is 3000), and the R
 ## Contributing
 
 Contributions are welcome! If you find any bugs or want to add new features, please open an issue or submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
