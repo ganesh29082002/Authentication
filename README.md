@@ -8,7 +8,8 @@ Sure! I've added the frontend and backend dependencies to the README file. Here'
 
 This project is a complete authentication system implemented in the MERN (MongoDB, Express, React, Node.js) stack. It includes essential features such as user registration, login, logout, password reset, and forgot password functionality. JSON Web Tokens (JWT) are used for secure authentication, and Nodemailer is integrated to handle password reset emails.
 ---
-<span style="color:#0366d6">**Note:** The code for this project is available in the "master" branch. Please make sure to switch to the "master" branch to access the complete and latest version of the code.</span>
+<span style="color:#0366d6">Note: The code for this project is available in the "master" branch. Please make sure to switch to the "master" branch to access the complete and latest version of the code.</span>
+
 ---
 ## Prerequisites
 
